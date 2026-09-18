@@ -264,6 +264,9 @@
     "terms_of_service": "شروط الخدمة"
   },
   "common": {
+    "error": "حدث خطأ ما، يرجى المحاولة مرة أخرى.",
+    "success": "تمت العملية بنجاح.",
+    "submitting": "جاري الإرسال...",
     "upload-image": "رفع صورة",
     "choose-file": "اختيار ملف",
     "file-size-limit": "WebP أو PNG أو JPG أو GIF حتى 5 ميجابايت",
@@ -506,8 +509,49 @@
     "maintenance_mode": "تفعيل وضع الصيانة",
     "updated_success": "تم تحديث إعدادات الموقع بنجاح!"
   },
-   "validations":{
-    "name-required":" الاسم مطلوب  ",
-    "phone-required":" الهاتف مطلوب للتواصل  "
+  "validations": {
+    "name-required": "الاسم مطلوب",
+    "phone-required": "الهاتف مطلوب للتواصل",
+    "name_required": "اسم المتجر مطلوب",
+    "name_min": "يجب أن يتكون اسم المتجر من حرفين على الأقل",
+    "name_max": "يجب ألا يتجاوز اسم المتجر 255 حرفًا",
+    "desc_max": "يجب ألا يتجاوز الوصف 2000 حرف"
+  },
+  "stores": {
+    "create_store": "إنشاء متجر جديد",
+    "create_store_title": "أنشئ متجرك الإلكتروني",
+    "create_store_subtitle": "أطلق متجرك الإلكتروني في ثوانٍ، وأبرز علامتك التجارية، وابدأ بالتواصل مع عملائك.",
+    "basic_info": "المعلومات الأساسية",
+    "basic_info_desc": "حدد اسم المتجر والدولة وبيانات التواصل الأساسية.",
+    "store_name": "اسم المتجر",
+    "store_name_placeholder": "مثال: متجر الإلكترونيات المتقدم",
+    "store_slug_preview": "رابط متجرك سيكون:",
+    "country": "الدولة",
+    "select_country": "اختر الدولة",
+    "phone": "رقم الهاتف",
+    "phone_placeholder": "+20 100 123 4567",
+    "address": "عنوان المتجر / المدينة",
+    "address_placeholder": "مثال: شارع النيل، القاهرة",
+    "description": "وصف المتجر",
+    "description_placeholder": "اكتب نبذة تعريفية عن متجرك، ونوعية المنتجات، ورؤيتك للعملاء...",
+    "branding": "الهوية البصرية والوسائط",
+    "branding_desc": "ارفع شعار المتجر وصورة الغلاف لجعل متجرك مميزاً وجذاباً.",
+    "store_logo": "شعار المتجر (Logo)",
+    "store_cover": "غلاف المتجر (Cover Banner)",
+    "social_links": "روابط التواصل الاجتماعي",
+    "social_links_desc": "ساعد عملاءك في الوصول لحساباتك على منصات التواصل.",
+    "facebook": "رابط صفحة فيسبوك",
+    "facebook_placeholder": "https://facebook.com/your-store",
+    "tiktok": "رابط حساب تيك توك",
+    "tiktok_placeholder": "https://tiktok.com/@your-store",
+    "instagram": "رابط حساب إنستغرام",
+    "instagram_placeholder": "https://instagram.com/your-store",
+    "submit_create": "إنشاء المتجر الآن",
+    "creating": "جاري إنشاء المتجر...",
+    "create_success": "تم إنشاء المتجر بنجاح!",
+    "reset": "إعادة تعيين النموذج",
+    "preview_card_title": "معاينة بطاقة المتجر",
+    "preview_card_desc": "هكذا سيظهر متجرك للعملاء والزوار.",
+    "active_badge": "متجر نشط"
   }
 }

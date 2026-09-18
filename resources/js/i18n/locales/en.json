@@ -264,6 +264,9 @@
     "terms_of_service": "Terms of Service"
   },
   "common": {
+    "error": "An error occurred. Please try again.",
+    "success": "Operation completed successfully.",
+    "submitting": "Submitting...",
     "upload-image": "Upload Image",
     "choose-file": "Choose File",
     "file-size-limit": "WebP, PNG, JPG or GIF up to 5MB",
@@ -506,8 +509,49 @@
     "maintenance_mode": "Maintenance Mode",
     "updated_success": "Website settings updated successfully!"
   },
-  "validations":{
-    "name-required":"Your Name is Required",
-    "phone-required":"Your Phone Required For Contact"
+  "validations": {
+    "name-required": "Your Name is Required",
+    "phone-required": "Your Phone Required For Contact",
+    "name_required": "Store name is required",
+    "name_min": "Store name must be at least 2 characters",
+    "name_max": "Store name must be at most 255 characters",
+    "desc_max": "Description must not exceed 2000 characters"
+  },
+  "stores": {
+    "create_store": "Create Store",
+    "create_store_title": "Create Your Store",
+    "create_store_subtitle": "Launch your digital store in seconds, showcase your brand, and connect with customers.",
+    "basic_info": "Basic Information",
+    "basic_info_desc": "Set your store name, country, and contact details.",
+    "store_name": "Store Name",
+    "store_name_placeholder": "e.g. Apex Electronics",
+    "store_slug_preview": "Your store URL will be:",
+    "country": "Country",
+    "select_country": "Select Country",
+    "phone": "Phone Number",
+    "phone_placeholder": "+20 100 123 4567",
+    "address": "Store Address / City",
+    "address_placeholder": "e.g. 123 Main Street, Cairo",
+    "description": "Store Description",
+    "description_placeholder": "Describe what makes your store unique, products offered, and your mission...",
+    "branding": "Branding & Media",
+    "branding_desc": "Upload high-quality logos and banners to represent your brand.",
+    "store_logo": "Store Logo",
+    "store_cover": "Cover Banner",
+    "social_links": "Social Media Links",
+    "social_links_desc": "Help customers find you on social networks.",
+    "facebook": "Facebook Page URL",
+    "facebook_placeholder": "https://facebook.com/your-store",
+    "tiktok": "TikTok Profile URL",
+    "tiktok_placeholder": "https://tiktok.com/@your-store",
+    "instagram": "Instagram Profile URL",
+    "instagram_placeholder": "https://instagram.com/your-store",
+    "submit_create": "Create Store",
+    "creating": "Creating Store...",
+    "create_success": "Store created successfully!",
+    "reset": "Reset Form",
+    "preview_card_title": "Store Card Preview",
+    "preview_card_desc": "Here is how your store will look to customers.",
+    "active_badge": "Active Store"
   }
 }
